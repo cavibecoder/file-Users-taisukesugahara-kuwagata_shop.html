@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プレミアムクワガタ専門店</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            background-color: #f4f1e9; /* 少し土気色のある背景 */
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #3a2e28; /* 濃い茶色 */
+            color: white;
+            border-bottom: 5px solid #c89f62; /* 金色っぽいアクセント */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.1em;
+            color: #e0e0e0;
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            border-bottom: 3px solid #c89f62;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            color: #3a2e28;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            background-color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            background-color: #eee;
+        }
+        .product-card-content {
+            padding: 20px;
+        }
+        .product-card h3 {
+            margin: 0 0 10px 0;
+            color: #3a2e28;
+            font-size: 1.4em;
+        }
+        .product-description {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .product-price {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #c0392b; /* 赤色 */
+            margin-bottom: 20px;
+        }
+        .buy-button {
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #5cb85c; /* 緑色 */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .buy-button:hover {
+            background-color: #4cae4c;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: #3a2e28;
+            color: #aaa;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>プレミアムクワガタ専門店</h1>
+        <p>厳選された、最高のクワガタをお届けします。</p>
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>販売中のクワガタ</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/kuwagata1.jpg" alt="オオクワガタ">
+                    <div class="product-card-content">
+                        <h3>国産オオクワガタ</h3>
+                        <p class="product-description">産地: 山梨県<br>サイズ: 75mm (オス)</p>
+                        <p class="product-price">¥8,000</p>
+                        <a href="#" class="buy-button">購入する</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/kuwagata2.jpg" alt="ヒラタクワガタ">
+                    <div class="product-card-content">
+                        <h3>国産ヒラタクワガタ</h3>
+                        <p class="product-description">産地: 兵庫県<br>サイズ: 65mm (オス)</p>
+                        <p class="product-price">¥4,500</p>
+                        <a href="#" class="buy-button">購入する</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/kuwagata3.jpg" alt="ノコギリクワガタ">
+                    <div class="product-card-content">
+                        <h3>国産ノコギリクワガタ</h3>
+                        <p class="product-description">産地: 千葉県<br>サイズ: 68mm (オス)</p>
+                        <p class="product-price">¥3,800</p>
+                        <a href="#" class="buy-button">購入する</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>ご注文について</h2>
+            <p style="text-align: center;">
+                ご購入希望の方は、上記の「購入する」ボタン（現在はサンプルです）から手続きを行ってください。<br>
+                ご質問がある場合は、お気軽にお問い合わせください。<br>
+                <strong>メール:</strong> info@premium-kuwagata.example.com
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 プレミアムクワガタ専門店. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
